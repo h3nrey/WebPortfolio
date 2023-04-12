@@ -1,5 +1,9 @@
-export interface Skill{
-    title: String;
+export interface Project{
+    id: Number,
+    title: string,
+    tecnologies: string[],
+    thumbnail: string,
+    url: string,
 }
 
 export const skills = {
@@ -25,6 +29,22 @@ export const skills = {
     ]
 }
 
+export const projects = [
+    {
+        id: 1,
+        title: "Find Your Morty",
+        tecnologies: ["react", "JS", "Tailwind", "Axios", "radix"],
+        thumbnail: "https://static.wikia.nocookie.net/liberproeliis/images/2/28/JoJo%E2%80%99s-Bizarre-04.jpg/revision/latest?cb=20161128222812&path-prefix=pt-br",
+        url: "https://github.com/h3nrey/FindYourMorty"
+    },
+    {
+        id: 2,
+        title: "Find Your dup",
+        tecnologies: ["react", "JS", "Tailwind", "Axios", "radix"],
+        thumbnail: "https://static.wikia.nocookie.net/liberproeliis/images/2/28/JoJo%E2%80%99s-Bizarre-04.jpg/revision/latest?cb=20161128222812&path-prefix=pt-br",
+        url: "https://github.com/h3nrey/FindYourMorty"
+    }
+]
 // export const skills = {
 //     frontend: [
 //         {

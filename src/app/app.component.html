@@ -13,10 +13,24 @@
        <!-- <app-skill-container [i]="1"></app-skill-container> -->
     </div>
   </div>
-  <main>
+  <main class="flex flex-col gap-8">
     <section>
       <h2 class="text-3xl font-bold text-title">About Me</h2>
       <p class="text-text text-xl text-justify">I am looking for my first opportunity to work in a healthy environment for my development as a web programmer, with the goal of improving my skills and developing new ones. Additionally, I hope to be able to assist my team by sharing my previous experiences.</p>
+    </section>
+
+    <section>
+      <div class="flex justify-between items-center">
+        <h2 class="text-3xl font-bold text-title">Projects</h2>
+        <a class="text-text text-xl font-normal hover:text-[#FE007A]" href="https://github.com/h3nrey">More projects...</a>
+      </div>
+
+      <div class="flex flex-col gap-8">
+        <div *ngFor="let project of projects">
+          <app-project [project]="project"></app-project>
+        </div>
+      </div>
+      
     </section>
   </main>
 </div>

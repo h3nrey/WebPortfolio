@@ -1,0 +1,14 @@
+<div class="flex bg-box p-4 rounded-xl">
+    <div class="flex flex-col">
+        <h3 class="font-bold text-title text-2xl">{{project.title}}</h3>
+        <div class="flex gap-4 items-center">
+            <p class="font-normal text-title text-xl">Tecnologies</p>
+            <div class="flex gap-2">
+                <ul class=""
+                    *ngFor="let tech of project.tecnologies">
+                    <li class="text-text">{{tech}}</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
