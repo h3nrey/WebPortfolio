@@ -9,7 +9,28 @@
     padding: 0;
 }
 
-body{
-    width: 100%;
-    /* overflow-x: hidden; */
+html, body{
+  min-width: fit-content;
 }
+
+::-webkit-scrollbar {
+    width: 1rem;
+    background-color: #302F3D;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    /* box-shadow: inset 0 0 5px #302F3D;  */
+    border-radius: 0px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #6B606C; 
+    border-radius: 2px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #FE007A; 
+  }

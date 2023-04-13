@@ -33,51 +33,29 @@ export const projects = [
     {
         id: 1,
         title: "Find Your Morty",
-        tecnologies: ["react", "JS", "Tailwind", "Axios", "radix"],
+        tecnologies: ["React", "Js", "Tailwind", "Axios", "radix"],
         thumbnail: "https://static.wikia.nocookie.net/liberproeliis/images/2/28/JoJo%E2%80%99s-Bizarre-04.jpg/revision/latest?cb=20161128222812&path-prefix=pt-br",
         url: "https://github.com/h3nrey/FindYourMorty"
     },
     {
         id: 2,
-        title: "Find Your dup",
-        tecnologies: ["react", "JS", "Tailwind", "Axios", "radix"],
+        title: "FindYourDuo",
+        tecnologies: ["React", "Ts", "Tailwind", "Axios", "NodeJs", "Radix", "Prisma", "Express"],
         thumbnail: "https://static.wikia.nocookie.net/liberproeliis/images/2/28/JoJo%E2%80%99s-Bizarre-04.jpg/revision/latest?cb=20161128222812&path-prefix=pt-br",
-        url: "https://github.com/h3nrey/FindYourMorty"
-    }
+        url: "https://github.com/h3nrey/FindYourDuo"
+    },
+    {
+        id: 2,
+        title: "Ghibli Cinema",
+        tecnologies: ["Js", "EJS", "SASS", "NodeJs", "Axios"],
+        thumbnail: "https://static.wikia.nocookie.net/liberproeliis/images/2/28/JoJo%E2%80%99s-Bizarre-04.jpg/revision/latest?cb=20161128222812&path-prefix=pt-br",
+        url: "https://github.com/h3nrey/GhibliCinema"
+    },
+    {
+        id: 2,
+        title: "PokeCatalog",
+        tecnologies: ["Js", "EJS", "SASS", "NodeJs", "Axios"],
+        thumbnail: "https://static.wikia.nocookie.net/liberproeliis/images/2/28/JoJo%E2%80%99s-Bizarre-04.jpg/revision/latest?cb=20161128222812&path-prefix=pt-br",
+        url: "https://github.com/h3nrey/pokecatalog"
+    },
 ]
-// export const skills = {
-//     frontend: [
-//         {
-//             id: 1,
-//             name: "React",
-//         },
-//         {
-//             id: 2,
-//             name: "Typescript",
-//         },
-
-//     ],
-//     backend: [
-//         {
-//             id: 3,
-//             name: "Nodejs",
-//         },
-//         {
-//             id: 4,
-//             name: "express",
-//         }
-//     ],
-//     other: [
-//         {
-//             id: 3,
-//             name: "Nodejs",
-//         },
-//         {
-//             id: 4,
-//             name: "express",
-//         }
-//     ],
-
-// }
-
-// export const skills = ["Jonathan", "Joseph", "Jotaro"]

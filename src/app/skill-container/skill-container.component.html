@@ -1,8 +1,8 @@
 <div class="skill text-title">
-    <h2 class="text-3xl font-bold first-letter:capitalize">{{name}} skills</h2>
-    <div class="bg-box flex flex-col text-2xl p-4 rounded-xl gap-2">
+    <h2 class="text-3xl lg:text-2xl font-bold first-letter:capitalize my-2">{{name}} skills</h2>
+    <div class="flex flex-col text-2xl rounded-xl gap-2">
       <ul *ngFor="let skill of skills" class="">
-        <li>{{skill}}</li>
+        <li class="bg-box flex rounded-xl px-2 lg:w-[70%] w-[80%] lg:text-xl">{{skill}}</li>
       </ul>
     </div>
     
