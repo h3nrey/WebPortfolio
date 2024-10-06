@@ -8,7 +8,7 @@ export interface Project {
 
 export const skills = {
   frontend: ['Angular', 'React', 'Typescript', 'Tailwind', 'SASS'],
-  backend: ['PHP', 'Laravel', 'NodeJs', 'Express', 'MySql', 'Postegres'],
+  backend: ['PHP', 'Laravel', 'NodeJs', 'Express', 'MySql', 'Postgres'],
   other: ['C#', 'Unity', 'Pandas', 'Python', 'Figma'],
 };
 
