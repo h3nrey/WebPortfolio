@@ -1,34 +1,49 @@
-<div class="font-pop bg-bg w-[100%] flex flex-col items-center gap-14 lg:gap-10 p-10
-  lg:flex-row lg:justify-between">
+<div
+  class="font-pop bg-bg w-[100%] flex flex-col items-center gap-14 lg:gap-10 p-10 lg:flex-row lg:justify-between"
+>
   <div class="flex flex-col items-center lg:items-start gap-8">
-    <header class="flex flex-col items-center justify-center bg-box px-10 py-8 w-fit rounded-xl gap-2">
+    <header
+      class="flex flex-col items-center justify-center bg-box px-10 py-8 w-fit rounded-xl gap-2"
+    >
       <img
-      class= "rounded-full w-[10rem] lg:w-[7rem]"
-      src="https://avatars.githubusercontent.com/u/56360819?v=4" alt="">
+        class="rounded-full w-[10rem] lg:w-[7rem]"
+        src="https://avatars.githubusercontent.com/u/56360819?v=4"
+        alt=""
+      />
       <h1
-      class="font-bold text-4xl text-title text-center whitespace-nowrap
-          lg:text-3xl">Pedro Novaes</h1>
-      <p class="text-2xl text-text lg:text-xl">Frontend Developer</p>
+        class="font-bold text-4xl text-title text-center whitespace-nowrap lg:text-3xl"
+      >
+        Pedro Novaes
+      </h1>
+      <p class="text-2xl text-text lg:text-xl">FullStack Developer</p>
     </header>
 
     <div class="skills bg-zinc-900 flex flex-row lg:flex-col gap-4">
-       <app-skill-container [name]="'frontend'"></app-skill-container>
-       <app-skill-container [name]="'backend'"></app-skill-container>
-       <app-skill-container [name]="'other'"></app-skill-container>
+      <app-skill-container [name]="'frontend'"></app-skill-container>
+      <app-skill-container [name]="'backend'"></app-skill-container>
+      <app-skill-container [name]="'other'"></app-skill-container>
     </div>
   </div>
 
   <main class="flex flex-col gap-8">
     <section>
       <h2 class="text-3xl font-bold text-title">About Me</h2>
-      <p class="text-text text-xl text-justify">I am looking for my first opportunity to work in a healthy environment for my development as a web programmer, with the goal of improving my skills and developing new ones. Additionally, I hope to be able to assist my team by sharing my previous experiences.</p>
+      <p class="text-text text-xl text-justify">
+        I am passionate about software development. I began studying it in high
+        school through game development, and in 2020, I shifted my focus more
+        towards web development
+      </p>
     </section>
 
     <!-- Projects -->
     <section class="flex flex-col gap-4">
       <div class="flex justify-between items-center">
         <h2 class="text-3xl font-bold text-title">Projects</h2>
-        <a class="text-text text-xl font-normal hover:text-[#FE007A]" href="https://github.com/h3nrey">More projects...</a>
+        <a
+          class="text-text text-xl font-normal hover:text-[#FE007A]"
+          href="https://github.com/h3nrey"
+          >More projects...</a
+        >
       </div>
 
       <div class="flex flex-col gap-4">
@@ -40,23 +55,24 @@
 
     <section class="flex flex-col gap-4">
       <div class="flex justify-between items-center">
-        <h2 class="text-3xl font-bold text-title">
-          Education
-        </h2>
+        <h2 class="text-3xl font-bold text-title">Education</h2>
       </div>
 
-      <div class="flex flex-col gap-4 justify-between
-        lg:flex-row">
-        <div class="flex flex-col p-8 bg-box rounded-xl gap-8">
-          <h3 class="text-title font-bold text-2xl">Technical in <br/> digital games</h3>
+      <div class="flex flex-col gap-4 justify-between lg:flex-row">
+        <div class="flex flex-col p-4 w-full bg-box rounded-xl gap-2">
+          <h3 class="text-title font-bold text-xl">
+            Technical in digital games
+          </h3>
           <div>
             <p class="text-title text-xl">State Technical School Cícero Dias</p>
             <p class="text-title text-xl">January 2019 - December 2021</p>
           </div>
         </div>
 
-        <div class="flex flex-col p-8 bg-box rounded-xl gap-8">
-          <h3 class="text-title font-bold text-2xl">Bachelor in <br/> Information Systems</h3>
+        <div class="flex flex-col p-4 w-full bg-box rounded-xl gap-2">
+          <h3 class="text-title font-bold text-xl">
+            Bachelor in Information Systems
+          </h3>
           <div class="flex flex-col">
             <p class="text-title text-xl">Federal University Of Pernambuco</p>
             <p class="text-title text-xl">November 2022 - ongoing</p>
@@ -66,4 +82,3 @@
     </section>
   </main>
 </div>
-
